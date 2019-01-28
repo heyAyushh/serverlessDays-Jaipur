@@ -23,6 +23,7 @@
   <meta name="description" content="A community based conference focusing on Jeff (Serverless) based platforms and technologies. Jaipur, 19 October 2018" />
   <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/senzo/image/upload/c_scale,w_96/v1518368948/ALL-NEW_ALL-DIFFERENT_cwm1cv.png" />
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css" />
+  
 
   <style>
     .vh-60 {
@@ -33,6 +34,13 @@
       }
       .vh-30 {
         height: 30vh;
+      }
+      .img-circle{
+        border-radius: 50%;
+        max-height: 100px;
+      }
+      .height{
+        height: 600px;
       }
       
       .baap {
@@ -96,6 +104,7 @@
 </head>
 
 <body class="avenir">
+  
   <div class="fixed w-100 vh-100 cover top-0" style="background:url(http://res.cloudinary.com/serverlessdays/image/upload/v1534240117/serverlessdays-jaipur-2018.jpg)"></div>
 
   <div class="w-100 vh-100-ns">
@@ -211,11 +220,62 @@
     </div>
   </div>
 
-  <div id="speakers" class="relative w-100 bg-black-80 pt2 pt0-ns mt0">
+  <div id="speakers" class="relative w-100 bg-black-80 pt2 pt0-ns mt0 height">
     <div class="mw6 mw7-ns center near-white pt3 pt4-ns ph2 pb5">
       <h2 class="f3 f2-ns tl">Speakers</h2>
-      <div class="f6 f5-ns mt4 lh-copy">
-        <p>Speakers are yet to be announced, keep an eye on this page.</p>
+      <div class="mt4 w-100 ph4 pb3 tc ma0">
+        <!-- <p>Speakers are yet to be announced, keep an eye on this page.</p> -->
+        <div class="fl w-third">
+          <img src="http://www.sonalraj.com/img/aboutme1.jpg" class="img-circle">
+          <p><b><br>IOT and Home Automation<br> using Serverless Computing</b> Sonal Raj <br><i>Hyderabad</i></p>
+        </div>
+        <div class="fl w-third">
+            <img src="https://pbs.twimg.com/profile_images/1048264518944473089/vn5HsPUd_400x400.jpg" class="img-circle">
+            <p><b><br>Cryptography and Networking<br> </b>
+              Drishti Jain <br>
+              <i>India</i></p>
+        </div>
+        <div class="fl w-third">
+            <img src="https://pbs.twimg.com/profile_images/799215813219610624/JDnviZta_400x400.jpg" alt="" class="img-circle">
+            <p>
+              <b>  The 3factor app: An application
+                <br> design pattern for serverless. </b><br>
+                Tirumarai Selvan<br>
+              <i>India</i>
+            </p>
+        </div>
+        <div class="fl w-third">
+            <img src="https://pbs.twimg.com/profile_images/1039175849520447490/D-WmSA6__400x400.jpg" alt="" class="img-circle">
+            <p><b>  Serverless Authentication with JWT</b><br>Md Shahbaz Alam  <br><i>  India</i></p>
+        </div>
+        <div class="fl w-third">
+            <img src="https://pbs.twimg.com/profile_images/849920089491070976/ZuT398AB_400x400.jpg" alt="" class="img-circle">
+            <p>
+              <b>  Multi-Cloud Serverless Solution using Gitlab
+              </b>
+              <br>
+              Ramya Authappan
+                <br>
+              <i>
+                  Chennai Area, India
+              </i>
+            </p>
+        </div>
+        <div class="fl w-third">
+            <img src="https://pbs.twimg.com/profile_images/1072935767289122816/vK_D5Ayk_400x400.jpg" alt="" class="img-circle">
+            <p>
+              <b>  Knative and the three dwarfs <br>
+                An introduction to Serverless with Knative 
+              </b>
+              <br>
+              Kamesh Sampath
+                <br>
+              <i>
+                  Chennai Area, India
+              </i>
+            </p>
+        </div>
+        <p>And many more lined up.</p>
       </div>
     </div>
   </div>
